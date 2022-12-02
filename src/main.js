@@ -15,13 +15,22 @@ import {
   faCircleUser,
   faMagnifyingGlass,
   faDownload,
+  faArrowRight,
+  faMinus,
 } from "@fortawesome/free-solid-svg-icons";
 
 // Import icone regular /
 import {} from "@fortawesome/free-regular-svg-icons";
 
 // add icons to the library /
-library.add(faCartShopping, faCircleUser, faMagnifyingGlass, faDownload);
+library.add(
+  faCartShopping,
+  faCircleUser,
+  faMagnifyingGlass,
+  faDownload,
+  faArrowRight,
+  faMinus
+);
 
 // add font awesome icon component */
 Vue.component("font-awesome-icon", FontAwesomeIcon);

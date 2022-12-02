@@ -21,10 +21,11 @@ export default {
 <style lang="scss" scoped>
 li {
     list-style-type: none;
+    color: gray;
 
     a {
         text-decoration: none;
-        color: black;
+
     }
 }
 </style>

@@ -14,7 +14,8 @@
     <div class="container-jumbo">
       <div class="desc-cont">
         <h1>Complete your Dreams in JavaS Programming </h1>
-        <p>Learn any coding program in distance and for a reasonable fee. You don't have to struggle alone, you,ve got
+        <p>Learn any coding program in distance and for a reasonable fee. You don't have to struggle
+          alone, you,ve got
           our assistance and help.
         </p>
         <div class="jumbo-btn-icn">
@@ -101,6 +102,7 @@ header {
       margin-top: 30px;
       font-size: 1.3rem;
       line-height: 2rem;
+      color: gray;
     }
   }
 
