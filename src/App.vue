@@ -1,7 +1,7 @@
 <template>
   <div id="app">
 
-    <HeaderComp />
+    <HeaderComp :navbarData="navbar" />
     <MainComp />
     <FooterComp />
   </div>
