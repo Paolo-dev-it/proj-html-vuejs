@@ -62,5 +62,7 @@ export default {
   box-sizing: border-box;
 }
 
-#app {}
+#app {
+  font-family: sans-serif;
+}
 </style>

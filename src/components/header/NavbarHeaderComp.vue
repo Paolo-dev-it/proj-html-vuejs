@@ -2,8 +2,9 @@
     <div>
         <ul>
             <li>
-                {{ singleData.name }}
+                <a href="">{{ singleData.name }}</a>
             </li>
+
         </ul>
     </div>
 </template>
@@ -18,5 +19,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+li {
+    list-style-type: none;
 
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
 </style>
