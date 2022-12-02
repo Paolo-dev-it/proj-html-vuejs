@@ -2,7 +2,7 @@
   <div id="app">
 
     <HeaderComp :navbarData="navbar" />
-    <MainComp />
+    <MainComp :lessonsData="lessons" />
     <FooterComp />
   </div>
 </template>
@@ -46,6 +46,29 @@ export default {
         {
           name: 'Shop',
           url: 'https://www.google.it'
+        },
+
+      ],
+      lessons: [
+        {
+          type: 'Idea Discussion',
+          url: 'home-5-image-box-01.png',
+          description: 'Get teamed up with the specialists who work and teach coding for years at famous universities'
+        },
+        {
+          type: 'Web Development',
+          url: 'home-5-image-box-02.png',
+          description: 'Get teamed up with the specialists who work and teach coding for years at famous universities'
+        },
+        {
+          type: 'System Administration',
+          url: 'home-5-image-box-03.png',
+          description: 'Get teamed up with the specialists who work and teach coding for years at famous universities'
+        },
+        {
+          type: 'Graphic Design',
+          url: 'home-5-image-box-04.png',
+          description: 'Get teamed up with the specialists who work and teach coding for years at famous universities'
         },
 
       ]

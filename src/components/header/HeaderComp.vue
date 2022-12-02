@@ -52,6 +52,7 @@ export default {
 header {
   background-color: #E9E6E3;
   background-image: url('../../assets/images/jumbo-overlay.svg');
+  padding-top: 30px;
 }
 
 .container-nav {
@@ -130,6 +131,7 @@ header {
 
     img {
       width: 100%;
+      padding-top: 40px;
     }
   }
 }
