@@ -18,6 +18,9 @@ import {
   faArrowRight,
   faMinus,
   faChevronDown,
+  faRulerCombined,
+  faFutbol,
+  faBook,
 } from "@fortawesome/free-solid-svg-icons";
 
 // Import icone regular /
@@ -31,7 +34,10 @@ library.add(
   faDownload,
   faArrowRight,
   faMinus,
-  faChevronDown
+  faChevronDown,
+  faRulerCombined,
+  faFutbol,
+  faBook
 );
 
 // add font awesome icon component */

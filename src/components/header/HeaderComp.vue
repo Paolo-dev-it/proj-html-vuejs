@@ -30,6 +30,12 @@
           <span><font-awesome-icon class="dwl-icn" icon="fa-download" /></span>
           <button>Download free E-book</button>
         </div>
+        <div class="full-right-jumbo">
+          <font-awesome-icon class="sin-icn" icon="fa-ruler-combined" />
+          <font-awesome-icon class="sin-icn" icon="fa-futbol" />
+          <font-awesome-icon class="sin-icn" icon="fa-book" />
+          <font-awesome-icon class="sin-icn" icon=" fa-cart-shopping" />
+        </div>
 
       </div>
       <div class="img-jumbo">
@@ -62,6 +68,7 @@ header {
   background-color: #E9E6E3;
   background-image: url('../../assets/images/jumbo-overlay.svg');
   padding-top: 30px;
+  position: relative;
 }
 
 .container-nav {
@@ -127,6 +134,27 @@ header {
   align-items: center;
   width: 70%;
   margin: 0 auto;
+
+  .full-right-jumbo {
+    position: absolute;
+    right: 0;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 65px 39px #E7E7E7;
+    -moz-box-shadow: 0px 0px 65px 39px #E7E7E7;
+    -o-box-shadow: 0px 0px 65px 39px #E7E7E7;
+    box-shadow: 0px 0px 10px 0px #E7E7E7;
+    background-color: white;
+    border-radius: 5px 0px 0px 5px;
+    padding: 10px;
+
+
+    .sin-icn {
+      margin-bottom: 15px;
+    }
+
+  }
 
   .desc-cont {
     width: 50%;
