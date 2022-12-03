@@ -24,6 +24,13 @@
         </div>
         <RegisterSectionComp />
         <MobileSectionComp />
+        <div class="event-section-cont">
+            <div class="single-event-section">
+                <EventsSectionComp v-for="(element, index) in eventsData" :key='index' :singleEventCardData="element" />
+            </div>
+
+        </div>
+
     </main>
 </template>
 
@@ -34,6 +41,7 @@ import NumbersSectionComp from '../main/NumbersSectionComp.vue';
 import CoursesSectionComp from '../main/CoursesSectionComp.vue';
 import RegisterSectionComp from '../main/RegisterSectionComp.vue';
 import MobileSectionComp from '../main/MobileSectionComp.vue';
+import EventsSectionComp from '../main/EventsSectionComp.vue';
 
 export default {
 
@@ -41,6 +49,7 @@ export default {
     props: {
         lessonsData: Array,
         coursesData: Array,
+        eventsData: Array,
     },
     components: {
         CardComp,
@@ -48,7 +57,8 @@ export default {
         NumbersSectionComp,
         CoursesSectionComp,
         RegisterSectionComp,
-        MobileSectionComp
+        MobileSectionComp,
+        EventsSectionComp
     }
 }
 </script>
@@ -138,5 +148,23 @@ h2 {
     .ic-arr {
         margin-left: 10px;
     }
+}
+
+.event-section-cont {
+    padding: 100px;
+    width: 70%;
+    margin: auto;
+
+
+
+    .single-event-section {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 10px;
+    }
+
 }
 </style>

@@ -2,7 +2,7 @@
   <div id="app">
 
     <HeaderComp :navbarData="navbar" />
-    <MainComp :lessonsData="lessons" :coursesData="courses" />
+    <MainComp :lessonsData="lessons" :coursesData="courses" :eventsData="events" />
     <FooterComp />
   </div>
 </template>
@@ -132,6 +132,46 @@ export default {
           students: 76,
         },
 
+      ],
+
+      events: [
+        {
+          place: 'Texas, US',
+          event: 'storytelling workShop',
+          number: 22,
+          month: 'nov',
+
+        },
+        {
+          place: 'New York, US',
+          event: 'painting art contest 2022',
+          number: 10,
+          month: 'oct',
+        },
+        {
+          place: 'Hamburg, Germany',
+          event: 'international art fair 2022',
+          number: 23,
+          month: 'nov',
+        },
+        {
+          place: 'Illinois, US',
+          event: 'street performance: call for artist',
+          number: 15,
+          month: 'dec',
+        },
+        {
+          place: 'Illinois, US',
+          event: 'consumer food safety education conference',
+          number: 22,
+          month: 'jul',
+        },
+        {
+          place: 'Dubai',
+          event: 'how meditation improve your mental healt?',
+          number: 12,
+          month: 'aug',
+        },
       ],
     }
   }
