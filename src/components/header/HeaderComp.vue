@@ -3,7 +3,15 @@
     <div class="container-nav">
       <LogoHeaderComp />
       <NavbarHeaderComp v-for="(elem, index) in navbarData" :key='index' :singleData="elem" />
-      <font-awesome-icon icon=" fa-cart-shopping" />
+      <div class="cart-cont">
+        <font-awesome-icon icon=" fa-cart-shopping" />
+        <div class="cart-nmb">
+
+          <span>0</span>
+
+        </div>
+      </div>
+
       <font-awesome-icon icon=" fa-circle-user" />
       <div class="right-nav">
         <input class="input-cust" type="text" placeholder="Search...">
@@ -69,9 +77,13 @@ header {
   display: flex;
   align-items: center;
 
+
+
   .input-cust {
-    height: 40px;
+    height: 45px;
     padding: 20px;
+    border-radius: 5px;
+    border: 0;
   }
 
   .magn-gl {
@@ -80,7 +92,33 @@ header {
     padding: 20px;
     color: #01afcB;
   }
+
+
 }
+
+.cart-cont {
+  position: relative;
+}
+
+.cart-nmb {
+  width: 16px;
+  height: 16px;
+  background-color: #01afcB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+
+  span {
+    font-size: 0.7rem;
+    color: white;
+  }
+}
+
+
 
 .container-jumbo {
   display: flex;
