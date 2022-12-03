@@ -76,7 +76,7 @@ export default {
 
     .perspect-desc-cont {
         margin-top: 100px;
-        padding: 0px 0px 0px 80px;
+        padding: 180px 25px 30px 50px;
         width: 50%;
 
 
@@ -84,6 +84,7 @@ export default {
             text-transform: uppercase;
             font-weight: lighter;
             margin-bottom: 30px;
+            font-size: 1rem;
 
             span {
                 font-weight: bolder;
@@ -91,7 +92,7 @@ export default {
         }
 
         h2 {
-            font-size: 2.1rem;
+            font-size: 3rem;
             font-weight: 900;
             text-transform: capitalize;
             margin-bottom: 40px;
@@ -151,6 +152,7 @@ export default {
             border-radius: 5px;
             padding: 15px;
             display: flex;
+
             justify-content: space-between;
             align-items: center;
             -webkit-box-shadow: 0px 0px 65px 39px #E7E7E7;
@@ -184,6 +186,7 @@ export default {
             display: flex;
             align-items: center;
 
+
             .minus-sty {
 
                 height: 20px;
@@ -194,6 +197,7 @@ export default {
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                margin-left: 30px;
 
                 .icn-min-sty {
                     color: #01afcB;

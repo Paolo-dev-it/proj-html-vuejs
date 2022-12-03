@@ -38,6 +38,7 @@ export default {
         display: flex;
         justify-content: space-between;
         padding: 50px 100px;
+        margin-top: 30px;
     }
 
     .nmb {

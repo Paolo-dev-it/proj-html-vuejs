@@ -83,5 +83,7 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    padding: 20px;
+    margin-top: 40px;
 }
 </style>

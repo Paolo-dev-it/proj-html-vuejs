@@ -81,19 +81,25 @@ export default {
         {
           name: 'Learning to write as a professional author',
           path: 'course-02-480x298.jpg',
+          pathTeacher: '73ee246daf47502812ccefc84bf02898.jpeg',
+          teacherName: 'Blanche Fields',
           price: '$ 40.00',
           lessonsNumb: 20,
         },
         {
           name: 'Customer-centric info-Tech strategies',
           path: 'stock-full-hd-03-480x298.jpg',
-          price: 'free',
+          pathTeacher: 'd0d504142acfde820eef2f11feea6253.jpeg',
+          teacherName: 'Maggie Strickland',
+          price: 'Free',
           lessonsNumb: 24,
           students: 50,
         },
         {
           name: 'Customer-centric info-Tech strategies',
           path: 'stock-full-hd-04-480x298.jpg',
+          pathTeacher: 'd0d504142acfde820eef2f11feea6253.jpeg',
+          teacherName: 'Maggie Strickland',
           price: '$ 19.00',
           lessonsNumb: 17,
           students: 769,
@@ -101,6 +107,8 @@ export default {
         {
           name: 'Customer-centric info-Tech strategies',
           path: 'stock-full-hd-06-480x298.jpg',
+          pathTeacher: '73ee246daf47502812ccefc84bf02898.jpeg',
+          teacherName: 'Blanche Fields',
           price: '$ 26.00',
           lessonsNumb: 14,
           students: 67,
@@ -108,6 +116,8 @@ export default {
         {
           name: 'Customer-centric info-Tech strategies',
           path: 'course-featured-image-01-480x298.jpg',
+          pathTeacher: '73ee246daf47502812ccefc84bf02898.jpeg',
+          teacherName: 'Blanche Fields',
           price: '$ 39.00',
           lessonsNumb: 6,
           students: 51,
@@ -115,6 +125,8 @@ export default {
         {
           name: 'Customer-centric info-Tech strategies',
           path: 'stock-full-hd-05-480x298.jpg',
+          pathTeacher: '73ee246daf47502812ccefc84bf02898.jpeg',
+          teacherName: 'Blanche Fields',
           price: '$ 59.00',
           lessonsNumb: 14,
           students: 76,
