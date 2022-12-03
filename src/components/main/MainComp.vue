@@ -10,6 +10,10 @@
         </div>
 
         <PerspectiveSectionCompVue />
+        <NumbersSectionComp />
+        <div class="cont-card-courses">
+            <CoursesSectionComp v-for="(element, index) in coursesData" :key='index' :singleLessonCardData="element" />
+        </div>
 
     </main>
 </template>
@@ -17,15 +21,21 @@
 <script>
 import CardComp from '../main/CardComp.vue'
 import PerspectiveSectionCompVue from '../main/PerspectiveSectionComp.vue';
+import NumbersSectionComp from '../main/NumbersSectionComp.vue';
+import CoursesSectionComp from '../main/CoursesSectionComp.vue';
+
 export default {
 
     name: 'MainComp',
     props: {
         lessonsData: Array,
+        coursesData: Array,
     },
     components: {
         CardComp,
-        PerspectiveSectionCompVue
+        PerspectiveSectionCompVue,
+        NumbersSectionComp,
+        CoursesSectionComp
     }
 }
 </script>
@@ -34,6 +44,7 @@ export default {
 <style scoped lang="scss">
 main {
     background-color: #FFFFFF;
+    width: 100%;
 }
 
 .style-sub {
@@ -63,5 +74,14 @@ main {
     width: 70%;
     margin: auto;
     gap: 30px;
+}
+
+.cont-card-courses {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 </style>
