@@ -1,6 +1,8 @@
 <template>
     <div>
+
         <div class="card-cont">
+
             <div class="single-card-cont">
                 <img :src="`/img/${singleLessonCardData.path}`" alt="">
                 <div class="price">{{ singleLessonCardData.price }}</div>
@@ -16,15 +18,17 @@
                     <p>{{ singleLessonCardData.name }}</p>
                 </div>
                 <div class="cont-desc">
-                    <span><font-awesome-icon class="descr-icn-img" icon="fa-solid fa-file-lines" />{{
+                    <span><font-awesome-icon class="descr-icn-img" icon="fa-regular fa-file-lines" />{{
                             singleLessonCardData.lessonsNumb
                     }}
                         Lessons</span>
-                    <span><font-awesome-icon class="descr-icn-img" icon="fa-solid fa-user" />{{
+                    <span><font-awesome-icon class="descr-icn-img" icon="fa-regular fa-user" />{{
                             singleLessonCardData.students
                     }} Students</span>
                 </div>
             </div>
+
+
 
         </div>
     </div>
@@ -59,7 +63,7 @@ export default {
             color: white;
             font-weight: bolder;
             padding: 10px;
-            border-radius: 0px 5px 0px 5px;
+            border-radius: 0px 0px 0px 5px;
         }
     }
 

@@ -6,13 +6,11 @@
       <div class="cart-cont">
         <font-awesome-icon icon=" fa-cart-shopping" />
         <div class="cart-nmb">
-
           <span>0</span>
-
         </div>
       </div>
 
-      <font-awesome-icon icon=" fa-circle-user" />
+      <font-awesome-icon icon="fa-regular fa-circle-user" />
       <div class="right-nav">
         <input class="input-cust" type="text" placeholder="Search...">
         <font-awesome-icon class="magn-gl" icon=" fa-magnifying-glass" />
@@ -32,8 +30,8 @@
         </div>
         <div class="full-right-jumbo">
           <font-awesome-icon class="sin-icn" icon="fa-ruler-combined" />
-          <font-awesome-icon class="sin-icn" icon="fa-futbol" />
-          <font-awesome-icon class="sin-icn" icon="fa-book" />
+          <font-awesome-icon class="sin-icn" icon="fa-regular fa-futbol" />
+          <font-awesome-icon class="sin-icn" icon=" fa-book" />
           <font-awesome-icon class="sin-icn" icon=" fa-cart-shopping" />
         </div>
 

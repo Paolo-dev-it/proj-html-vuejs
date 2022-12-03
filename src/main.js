@@ -12,21 +12,23 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 // import specific icons /
 import {
   faCartShopping,
-  faCircleUser,
   faMagnifyingGlass,
   faDownload,
   faArrowRight,
   faMinus,
   faChevronDown,
   faRulerCombined,
-  faFutbol,
   faBook,
-  faUser,
-  faFileLines,
+  faCheck,
 } from "@fortawesome/free-solid-svg-icons";
 
 // Import icone regular /
-import {} from "@fortawesome/free-regular-svg-icons";
+import {
+  faCircleUser,
+  faFutbol,
+  faFileLines,
+  faUser,
+} from "@fortawesome/free-regular-svg-icons";
 
 // add icons to the library /
 library.add(
@@ -41,7 +43,8 @@ library.add(
   faFutbol,
   faBook,
   faUser,
-  faFileLines
+  faFileLines,
+  faCheck
 );
 
 // add font awesome icon component */
