@@ -1,0 +1,121 @@
+<template>
+    <div class="container">
+        <div class="cont-left">
+            <img class="img" src="../../assets/images/home-5-image-02.png" alt="">
+            <div class="gray-shape"></div>
+            <div class="shape"></div>
+            <div class="shape-circle"></div>
+            <div class="lines-shape"></div>
+        </div>
+        <div class="mobile-desc-cont">
+            <h3>what are you looking for?</h3>
+            <h2>Learn on your <span>mobile</span> anytime!</h2>
+            <p>Save lessons for later and revise on write notes at any time and on multiple devices on your way. Never
+                interfere with activities of enjoyment or other precious moments</p>
+            <button class="btn">download our app</button>
+        </div>
+    </div>
+</template>
+
+<script>
+export default {
+    name: 'MobileSectionComp'
+}
+</script>
+
+<style lang="scss" scoped>
+.container {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    position: relative;
+
+}
+
+.cont-left {
+    width: 50%;
+}
+
+.img {
+    position: absolute;
+    top: -10px;
+    z-index: 1;
+}
+
+.gray-shape {
+    background-image: url('../../assets/images/underlay-shape-grey.svg');
+    background-size: cover;
+    position: absolute;
+    left: -100px;
+    top: 150px;
+    width: 400px;
+    height: 400px;
+    z-index: 0;
+}
+
+.shape-circle {
+    background-image: url('../../assets/images/maxcoach-shape-02.png');
+    background-size: cover;
+    position: absolute;
+    left: 400px;
+    top: 30px;
+    width: 70px;
+    height: 70px;
+}
+
+.shape {
+    background-image: url('../../assets/images/maxcoach-shape-07.png');
+    background-size: cover;
+    position: absolute;
+    left: 370px;
+    top: 300px;
+    width: 120px;
+    height: 200px;
+}
+
+.lines-shape {
+    background-image: url('../../assets/images/maxcoach-shape-01.png');
+    background-size: cover;
+    position: absolute;
+    left: -150px;
+    top: 70px;
+    width: 200px;
+    height: 55px;
+}
+
+.mobile-desc-cont {
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 50px;
+
+    h3 {
+        text-transform: uppercase;
+        margin-bottom: 30px;
+
+    }
+
+    h2 {
+        font-size: 2.8rem;
+        margin-bottom: 30px;
+        line-height: 3.5rem;
+    }
+
+    p {
+        line-height: 1.8rem;
+    }
+
+    .btn {
+        margin-top: 30px;
+        padding: 15px;
+        width: 200px;
+        background-color: #01afcB;
+        color: white;
+        text-transform: capitalize;
+        border: 0;
+        border-radius: 5px;
+    }
+}
+</style>

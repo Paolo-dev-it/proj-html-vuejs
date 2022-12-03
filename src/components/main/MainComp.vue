@@ -23,8 +23,7 @@
             </div>
         </div>
         <RegisterSectionComp />
-
-
+        <MobileSectionComp />
     </main>
 </template>
 
@@ -34,6 +33,7 @@ import PerspectiveSectionCompVue from '../main/PerspectiveSectionComp.vue';
 import NumbersSectionComp from '../main/NumbersSectionComp.vue';
 import CoursesSectionComp from '../main/CoursesSectionComp.vue';
 import RegisterSectionComp from '../main/RegisterSectionComp.vue';
+import MobileSectionComp from '../main/MobileSectionComp.vue';
 
 export default {
 
@@ -48,6 +48,7 @@ export default {
         NumbersSectionComp,
         CoursesSectionComp,
         RegisterSectionComp,
+        MobileSectionComp
     }
 }
 </script>

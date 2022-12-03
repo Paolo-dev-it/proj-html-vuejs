@@ -80,8 +80,9 @@ export default {
         background-image: url('../../assets/images/underlay-shape-grey.svg');
         background-size: cover;
         background-repeat: no-repeat;
-        width: 400px;
-        height: 400px;
+        width: 500px;
+        height: 500px;
+
     }
 
     .shape {
@@ -89,7 +90,7 @@ export default {
         height: 150px;
         border-radius: 50%;
         position: absolute;
-        top: 150px;
+        bottom: 100px;
         right: -40px;
         background-image: url('../../assets/images/maxcoach-shape-07-100x100.png');
         background-size: cover;
