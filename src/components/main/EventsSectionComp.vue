@@ -2,14 +2,15 @@
     <div class="container">
         <div class="card-cont">
             <div class="single-card">
-                <div>
+                <div class="left-part">
+                    <span class="icn"><font-awesome-icon icon="fa-solid fa-location-dot" /></span>
                     <span>{{ singleEventCardData.place }}</span>
                     <h3>{{ singleEventCardData.event }}</h3>
                 </div>
-                <div>
-                    <div>{{ singleEventCardData.number }}</div>
-                    <div>{{ singleEventCardData.month }}</div>
-                    <div><button>ciao </button></div>
+                <div class="right-part">
+                    <div class="nmb">{{ singleEventCardData.number }}</div>
+                    <div class="mnt">{{ singleEventCardData.month }}</div>
+                    <button>Get ticket </button>
                 </div>
             </div>
 
@@ -29,18 +30,60 @@ export default {
 
 <style lang="scss" scoped>
 .card-cont {
-    width: 380px;
+    width: 480px;
     display: flex;
     justify-content: space-between;
-
-
 }
 
 .single-card {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
-    padding: 20px;
+    background-color: #F8F8F8;
+    padding: 30px;
+}
+
+.left-part {
+    .icn {
+        margin: 0;
+    }
+
+    span {
+        font-weight: 100;
+        font-size: 0.9rem;
+        color: gray;
+        margin-left: 10px;
+    }
+
+    h3 {
+        text-transform: capitalize;
+        margin-top: 10px;
+    }
+}
+
+.right-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .nmb {
+        font-size: 2.5rem;
+        color: #1FAD96;
+    }
+
+    .mnt {
+        text-transform: uppercase;
+    }
+
+    button {
+        padding: 5px;
+        width: 130px;
+        height: 30px;
+        border-radius: 5px;
+        border: 0;
+        background-color: #1FAD96;
+        color: white;
+        margin-top: 10px;
+    }
 }
 </style>

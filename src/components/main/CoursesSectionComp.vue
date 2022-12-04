@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container">
 
         <div class="card-cont">
 
@@ -59,7 +59,7 @@ export default {
             width: 70px;
             top: 0px;
             right: -214px;
-            background-color: #01afcB;
+            background-color: #1FAD96;
             color: white;
             font-weight: bolder;
             padding: 10px;

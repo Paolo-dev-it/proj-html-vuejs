@@ -39,12 +39,13 @@ export default {
         justify-content: space-between;
         padding: 50px 100px;
         margin-top: 30px;
+
     }
 
     .nmb {
         font-size: 3rem;
         font-weight: 900;
-        color: #01afcB;
+        color: #1FAD96;
         text-align: center;
     }
 

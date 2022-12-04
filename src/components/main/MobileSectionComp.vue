@@ -30,7 +30,7 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-bottom: 50px;
     position: relative;
 
 }
@@ -111,7 +111,7 @@ export default {
         margin-top: 30px;
         padding: 15px;
         width: 200px;
-        background-color: #01afcB;
+        background-color: #1FAD96;
         color: white;
         text-transform: capitalize;
         border: 0;

@@ -95,7 +95,7 @@ header {
     position: absolute;
     right: 0px;
     padding: 20px;
-    color: #01afcB;
+    color: #1FAD96;
   }
 
 
@@ -108,7 +108,7 @@ header {
 .cart-nmb {
   width: 16px;
   height: 16px;
-  background-color: #01afcB;
+  background-color: #1FAD96;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -179,7 +179,7 @@ header {
       width: 200px;
       padding: 15px;
       border-radius: 5px;
-      background-color: #01afcB;
+      background-color: #1FAD96;
       color: white;
       border: 0;
     }

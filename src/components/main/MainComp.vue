@@ -22,13 +22,19 @@
                 <button class="btn">View all courses <font-awesome-icon class="ic-arr" icon="fa-arrow-right" /></button>
             </div>
         </div>
+
         <RegisterSectionComp />
+
+
         <MobileSectionComp />
         <div class="event-section-cont">
+            <h3>get in contact now</h3>
+            <h2>upcoming <span>events</span></h2>
             <div class="single-event-section">
                 <EventsSectionComp v-for="(element, index) in eventsData" :key='index' :singleEventCardData="element" />
             </div>
-
+            <span class="events-cta">Excited about our events?<span class="all-events"> View all events
+                    <font-awesome-icon class="ic-arr" icon="fa-arrow-right" /></span></span>
         </div>
 
     </main>
@@ -87,16 +93,23 @@ main {
         .today-sty {
             text-transform: uppercase;
             font-weight: lighter;
-            color: #01afcB;
+            color: #1FAD96;
         }
     }
 }
+
+
 
 .cont-card {
     display: flex;
     width: 70%;
     margin: auto;
     gap: 30px;
+}
+
+.courses-section-cont {
+    width: 100%;
+    background-color: #FFFFFF;
 }
 
 
@@ -130,7 +143,7 @@ h2 {
     span {
         margin-left: 8px;
         font-weight: lighter;
-        color: #01afcB;
+        color: #1FAD96;
     }
 }
 
@@ -139,7 +152,7 @@ h2 {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background-color: #01afcB;
+    background-color: #1FAD96;
     color: white;
     border-radius: 10px;
     width: 250px;
@@ -151,9 +164,20 @@ h2 {
 }
 
 .event-section-cont {
-    padding: 100px;
+    padding: 100px 0px;
     width: 70%;
     margin: auto;
+
+    h3 {
+        text-align: center;
+        text-transform: uppercase;
+        color: gray;
+    }
+
+    h2 {
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
 
 
 
@@ -162,8 +186,24 @@ h2 {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        gap: 10px;
+        gap: 25px;
         padding: 10px;
+    }
+
+    .events-cta {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-top: 50px;
+        color: gray;
+
+        .all-events {
+            color: #1FAD96;
+            margin-left: 10px;
+            text-decoration: underline;
+            text-decoration-color: gray;
+            text-decoration-thickness: 1px;
+        }
     }
 
 }

@@ -99,7 +99,7 @@ export default {
 
             span {
                 font-weight: 200;
-                color: #01afcB;
+                color: #1FAD96;
             }
         }
 
@@ -179,7 +179,7 @@ export default {
         }
 
         .title-card-top {
-            background-color: #01afcB;
+            background-color: #1FAD96;
             color: white;
             padding: 15px;
             border-radius: 5px 5px 0px 0px;
@@ -200,7 +200,7 @@ export default {
                 margin-left: 30px;
 
                 .icn-min-sty {
-                    color: #01afcB;
+                    color: #1FAD96;
 
                 }
             }

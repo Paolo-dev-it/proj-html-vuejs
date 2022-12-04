@@ -20,6 +20,7 @@ import {
   faRulerCombined,
   faBook,
   faCheck,
+  faLocationDot,
 } from "@fortawesome/free-solid-svg-icons";
 
 // Import icone regular /
@@ -44,7 +45,8 @@ library.add(
   faBook,
   faUser,
   faFileLines,
-  faCheck
+  faCheck,
+  faLocationDot
 );
 
 // add font awesome icon component */
