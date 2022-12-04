@@ -3,7 +3,7 @@
 
     <HeaderComp :navbarData="navbar" />
     <MainComp :lessonsData="lessons" :coursesData="courses" :eventsData="events" />
-    <FooterComp />
+    <FooterComp :reviewsData="reviews" />
   </div>
 </template>
 
@@ -168,10 +168,33 @@ export default {
         },
         {
           place: 'Dubai',
-          event: 'how meditation improve your mental healt?',
+          event: 'how meditation improve your mental health?',
           number: 12,
           month: 'aug',
         },
+      ],
+
+      reviews: [
+        {
+          path: 'testimonial-avata-02.jpg',
+          description: "Im free to learn at my own pace, follow my own schedule and choode the subject I like. Great study portal for people like me.",
+          name: 'mina hollace',
+          job: '/ Freelancer',
+        },
+        {
+          path: 'testimonial-avata-04.jpg',
+          description: 'MaxCoach is the best choice. Their tutors are smart and professional when dealing with students.',
+          name: 'madley pondor',
+          job: '/ IT Specialist',
+        },
+        {
+          path: 'testimonial-avata-01.jpg',
+          description: 'Im happy with their arrangment of lessons and subjects. They reflect a scientific investigation.',
+          name: 'luvic dubble',
+          job: '/ Private Tutor',
+        },
+
+
       ],
     }
   }
