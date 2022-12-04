@@ -8,6 +8,27 @@
             <div class="container-cards">
                 <PraisingSectionComp v-for="(elem, index) in reviewsData" :key='index' :singleReviewCardData="elem" />
             </div>
+            <div class="icn">
+                <font-awesome-icon class="black" icon="fa-solid fa-circle" />
+                <font-awesome-icon class="gray" icon="fa-solid fa-circle" />
+                <font-awesome-icon class="gray" icon="fa-solid fa-circle" />
+                <font-awesome-icon class="gray" icon="fa-solid fa-circle" />
+            </div>
+            <div class="cta">
+                <div>
+                    <img src="../../assets/images/maxcoach-shape-01.png" alt="">
+                </div>
+                <div>
+                    <h3></h3>
+                </div>
+                <div>
+                    <h2></h2>
+                    <button>ciao</button>
+                </div>
+                <div>
+                    <img src="../../assets/images/maxcoach-shape-02.png" alt="">
+                </div>
+            </div>
 
         </div>
     </footer>
@@ -64,6 +85,29 @@ footer {
         display: flex;
         gap: 25px;
         margin-top: 150px;
+    }
+
+    .icn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+
+    }
+
+    .black {
+        font-size: 0.7rem;
+
+    }
+
+    .gray {
+        color: lightgray;
+        font-size: 0.4rem;
+        margin-left: 20px;
+    }
+
+    .cta {
+        display: flex;
     }
 }
 </style>
