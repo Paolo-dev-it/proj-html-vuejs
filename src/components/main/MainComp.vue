@@ -72,19 +72,23 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 main {
-    background-color: #FFFFFF;
+    background-color: #FAF8F6;
     width: 100%;
 }
 
 .style-sub {
     width: 70%;
     margin: 0 auto;
-    margin-top: 30px;
+
     margin-bottom: 70px;
     text-align: center;
     text-transform: uppercase;
     font-weight: lighter;
     line-height: 3rem;
+
+    h4 {
+        padding: 0;
+    }
 
     .build-drm {
         text-transform: capitalize;
@@ -105,11 +109,12 @@ main {
     width: 70%;
     margin: auto;
     gap: 30px;
+
 }
 
 .courses-section-cont {
     width: 100%;
-    background-color: #FFFFFF;
+
 }
 
 
@@ -128,7 +133,7 @@ main {
 h4 {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    padding: 100px;
     text-transform: uppercase;
 }
 
@@ -164,7 +169,7 @@ h2 {
 }
 
 .event-section-cont {
-    padding: 100px 0px;
+    padding: 50px 0px 0px 0px;
     width: 70%;
     margin: auto;
 

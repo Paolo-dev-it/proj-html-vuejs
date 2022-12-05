@@ -33,14 +33,17 @@ export default {
     width: 480px;
     display: flex;
     justify-content: space-between;
+
 }
 
 .single-card {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: #F8F8F8;
-    padding: 30px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    padding-top: 30px;
 }
 
 .left-part {

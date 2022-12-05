@@ -1,20 +1,24 @@
 <template>
-    <div class="container">
-        <div class="cont-left">
-            <img class="img" src="../../assets/images/home-5-image-02.png" alt="">
-            <div class="gray-shape"></div>
-            <div class="shape"></div>
-            <div class="shape-circle"></div>
-            <div class="lines-shape"></div>
-        </div>
-        <div class="mobile-desc-cont">
-            <h3>what are you looking for?</h3>
-            <h2>Learn on your <span>mobile</span> anytime!</h2>
-            <p>Save lessons for later and revise on write notes at any time and on multiple devices on your way. Never
-                interfere with activities of enjoyment or other precious moments</p>
-            <button class="btn">download our app</button>
+    <div class="container-big">
+        <div class="container">
+            <div class="cont-left">
+                <img class="img" src="../../assets/images/home-5-image-02.png" alt="">
+                <div class="gray-shape"></div>
+                <div class="shape"></div>
+                <div class="shape-circle"></div>
+                <div class="lines-shape"></div>
+            </div>
+            <div class="mobile-desc-cont">
+                <h3>what are you looking for?</h3>
+                <h2>Learn on your <span>mobile</span> anytime!</h2>
+                <p>Save lessons for later and revise on write notes at any time and on multiple devices on your way.
+                    Never
+                    interfere with activities of enjoyment or other precious moments</p>
+                <button class="btn">download our app</button>
+            </div>
         </div>
     </div>
+
 </template>
 
 <script>
@@ -24,13 +28,19 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.container-big {
+    width: 100%;
+    background-color: white;
+    padding-top: 70px;
+}
+
 .container {
     width: 70%;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
+    padding-bottom: 130px;
     position: relative;
 
 }
@@ -54,6 +64,7 @@ export default {
     width: 400px;
     height: 400px;
     z-index: 0;
+
 }
 
 .shape-circle {

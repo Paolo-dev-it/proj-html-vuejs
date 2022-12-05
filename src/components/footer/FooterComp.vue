@@ -15,17 +15,15 @@
                 <font-awesome-icon class="gray" icon="fa-solid fa-circle" />
             </div>
             <div class="cta">
-                <div>
+                <div class="lines-sh">
                     <img src="../../assets/images/maxcoach-shape-01.png" alt="">
                 </div>
-                <div>
-                    <h3></h3>
+                <div class="center-blk">
+                    <h3>Start today for getting <span>online certification</span></h3>
+                    <h2>You can be your own guiding star with our help!</h2>
+                    <button>Get started now</button>
                 </div>
-                <div>
-                    <h2></h2>
-                    <button>ciao</button>
-                </div>
-                <div>
+                <div class="circle-sh">
                     <img src="../../assets/images/maxcoach-shape-02.png" alt="">
                 </div>
             </div>
@@ -52,7 +50,7 @@ export default {
 <style scoped lang="scss">
 footer {
     width: 100%;
-
+    background-color: #FAF8F6;
 }
 
 .container {
@@ -61,6 +59,7 @@ footer {
 
     .title {
         text-align: center;
+        padding-top: 100px;
 
         h3 {
             text-transform: uppercase;
@@ -85,13 +84,14 @@ footer {
         display: flex;
         gap: 25px;
         margin-top: 150px;
+        margin-bottom: 50px;
     }
 
     .icn {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 80px;
+        margin-bottom: 80px;
 
     }
 
@@ -108,6 +108,50 @@ footer {
 
     .cta {
         display: flex;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+
+
+
+
+        .lines-sh {
+            margin-top: 40px;
+        }
+
+        .circle-sh {
+            margin-top: 50px;
+        }
+
+        .center-blk {
+            h3 {
+                margin-bottom: 10px;
+                font-size: 1.7rem;
+
+                span {
+                    text-transform: capitalize;
+                    color: #1FAD96;
+                    font-weight: 100;
+                }
+            }
+
+            h2 {
+                margin-bottom: 10px;
+                font-size: 2.2rem;
+                font-weight: 900;
+            }
+
+            button {
+                width: 200px;
+                height: 45px;
+                border-radius: 5px;
+                border: 0;
+                background-color: #1FAD96;
+                color: white;
+                font-weight: 900;
+                margin-top: 30px;
+            }
+        }
     }
 }
 </style>

@@ -30,7 +30,7 @@ export default {
 <style lang="scss" scoped>
 .container-big {
     width: 100%;
-    background-color: #FAF8F6;
+    background-color: #f8f1eb;
 
     .container {
         width: 70%;
@@ -38,7 +38,7 @@ export default {
         display: flex;
         justify-content: space-between;
         padding: 50px 100px;
-        margin-top: 30px;
+
 
     }
 

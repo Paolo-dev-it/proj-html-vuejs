@@ -1,51 +1,54 @@
 <template>
-    <div class="perspective-cont">
-        <div class="img-happy">
-            <img src="../../assets/images/about-us-03-image-01.png" alt="">
-        </div>
-        <div class="perspect-desc-cont">
-            <h5>dream with <span>maxcoach</span></h5>
-            <h2>Construct a <span>stunning</span> career perspective</h2>
-            <div>
-                <div class="title-card-top">
+    <div class="container-big">
+        <div class="perspective-cont">
+            <div class="img-happy">
+                <img src="../../assets/images/about-us-03-image-01.png" alt="">
+            </div>
+            <div class="perspect-desc-cont">
+                <h5>dream with <span>maxcoach</span></h5>
+                <h2>Construct a <span>stunning</span> career perspective</h2>
+                <div>
+                    <div class="title-card-top">
+                        <div>
+                            <h3>Multiple platforms supporting for teaching and studying</h3>
+                        </div>
+                        <div class="minus-sty">
+                            <font-awesome-icon class="icn-min-sty" icon="fa-minus" />
+                        </div>
+
+                    </div>
+                    <div class="card-top-1">
+                        <p>
+                            MaxCoach supports the act of teaching and learning on multiple platforms like online or
+                            offline
+                            via material downloads. We know things aren't supposed to be devoured in a short time, you
+                            can
+                            always access our knowledge base from any device
+                        </p>
+                    </div>
+
+                </div>
+                <div class="card-top-2">
                     <div>
                         <h3>Multiple platforms supporting for teaching and studying</h3>
                     </div>
-                    <div class="minus-sty">
-                        <font-awesome-icon class="icn-min-sty" icon="fa-minus" />
+                    <div class="plus-cont">
+                        <img src="../../assets/images/add.svg" alt="">
+                    </div>
+                </div>
+                <div class="card-top-3">
+                    <div>
+                        <h3>Multiple platforms supporting for teaching and studying</h3>
+                    </div>
+                    <div class="plus-cont">
+                        <img src="../../assets/images/add.svg" alt="">
                     </div>
 
                 </div>
-                <div class="card-top-1">
-                    <p>
-                        MaxCoach supports the act of teaching and learning on multiple platforms like online or
-                        offline
-                        via material downloads. We know things aren't supposed to be devoured in a short time, you
-                        can
-                        always access our knowledge base from any device
-                    </p>
-                </div>
-
-            </div>
-            <div class="card-top-2">
-                <div>
-                    <h3>Multiple platforms supporting for teaching and studying</h3>
-                </div>
-                <div class="plus-cont">
-                    <img src="../../assets/images/add.svg" alt="">
-                </div>
-            </div>
-            <div class="card-top-3">
-                <div>
-                    <h3>Multiple platforms supporting for teaching and studying</h3>
-                </div>
-                <div class="plus-cont">
-                    <img src="../../assets/images/add.svg" alt="">
-                </div>
-
             </div>
         </div>
     </div>
+
 </template>
 
 <script>
@@ -55,6 +58,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.container-big {
+    width: 100%;
+    background-color: #FAF8F6;
+}
+
 .perspective-cont {
     width: 70%;
     margin: auto;

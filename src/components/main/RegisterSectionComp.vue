@@ -48,7 +48,7 @@ export default {
     margin-top: 100px;
     position: relative;
     z-index: 3;
-
+    padding: 80px;
 
 
     .list-section {
@@ -94,8 +94,8 @@ export default {
         background-image: url('../../assets/images/underlay-shape-grey.svg');
         background-size: cover;
         background-repeat: no-repeat;
-        width: 500px;
-        height: 500px;
+        width: 400px;
+        height: 400px;
 
     }
 
