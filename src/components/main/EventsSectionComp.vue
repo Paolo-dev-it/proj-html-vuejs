@@ -49,6 +49,12 @@ export default {
     transition-duration: 0.5s;
 }
 
+.single-card:hover button {
+    background-color: #403A64;
+    color: white;
+    transition-duration: 0.5s;
+}
+
 
 .left-part {
     .icn {
@@ -91,11 +97,12 @@ export default {
         background-color: #1FAD96;
         color: white;
         margin-top: 10px;
+        font-weight: 900;
     }
 
     button:hover {
-        background-color: rgb(237, 237, 237);
-        color: #1FAD96;
+        background-color: #403A64;
+        color: white;
         transition-duration: 0.5s;
     }
 }

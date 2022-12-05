@@ -22,6 +22,7 @@ import {
   faCheck,
   faLocationDot,
   faCircle,
+  faArrowUpLong,
 } from "@fortawesome/free-solid-svg-icons";
 
 // Import icone regular /
@@ -60,7 +61,8 @@ library.add(
   faSquareFacebook,
   faSquareTwitter,
   faInstagram,
-  faLinkedin
+  faLinkedin,
+  faArrowUpLong
 );
 
 // add font awesome icon component */

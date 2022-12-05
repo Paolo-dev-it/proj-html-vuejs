@@ -48,6 +48,10 @@
                         <li>Purchase guide</li>
                         <li>Privacy policy</li>
                         <li>Terms of services</li>
+                        <div class="cont-btn">
+                            <button @click="toTop()"><font-awesome-icon icon="fa-solid fa-arrow-up-long" /></button>
+                        </div>
+
                     </ul>
                 </div>
 
@@ -59,6 +63,19 @@
 <script>
 export default {
     name: 'LinksSectionFooter',
+    methods: {
+
+        toTop() {
+            window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: 'smooth'
+            }
+            )
+        }
+
+
+    }
 }
 </script>
 
@@ -67,6 +84,7 @@ export default {
     width: 100%;
     margin: 0 auto;
     padding: 50px 0px;
+    position: relative;
 }
 
 .container {
@@ -124,11 +142,35 @@ export default {
         .inf-con {
             h3 {
                 color: black;
+
             }
+
 
             padding-top: 37px;
             margin-left: 70px;
             line-height: 2rem;
+
+            .cont-btn {
+                padding-bottom: 20px;
+            }
+
+            button {
+                position: absolute;
+                right: 30px;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                border: 0;
+                background-color: #1FAD96;
+                color: white;
+                font-size: 1.1rem;
+            }
+
+            button:hover {
+                background-color: white;
+                color: #1FAD96;
+                transition-duration: 0.5s;
+            }
         }
     }
 }
