@@ -173,6 +173,7 @@ header {
 
   .jumbo-btn-icn {
     margin-top: 30px;
+    width: 200px;
     position: relative;
     display: flex;
 
@@ -201,12 +202,12 @@ header {
   }
 
   .jumbo-btn-icn:hover .dwl-icn {
-    color: #1FAD96;
+    color: white;
   }
 
   .jumbo-btn-icn:hover button {
-    background-color: white;
-    color: #1FAD96;
+    background-color: #403A64;
+    color: white;
   }
 
 
