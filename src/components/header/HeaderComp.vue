@@ -75,6 +75,7 @@ header {
   align-items: center;
   width: 70%;
   margin: 0 auto;
+
 }
 
 .right-nav {

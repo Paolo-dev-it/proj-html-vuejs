@@ -34,7 +34,9 @@
                 <EventsSectionComp v-for="(element, index) in eventsData" :key='index' :singleEventCardData="element" />
             </div>
             <span class="events-cta">Excited about our events?<span class="all-events"> View all events
-                    <font-awesome-icon class="ic-arr" icon="fa-arrow-right" /></span></span>
+                    <font-awesome-icon class="ic-arr" icon="fa-arrow-right" />
+                </span>
+            </span>
         </div>
 
     </main>
@@ -87,7 +89,7 @@ main {
     line-height: 3rem;
 
     h4 {
-        padding: 0;
+        padding: 0px;
     }
 
     .build-drm {
@@ -102,8 +104,6 @@ main {
     }
 }
 
-
-
 .cont-card {
     display: flex;
     width: 70%;
@@ -116,8 +116,6 @@ main {
     width: 100%;
 
 }
-
-
 
 .cont-card-courses {
     display: flex;
@@ -133,7 +131,7 @@ main {
 h4 {
     display: flex;
     justify-content: center;
-    padding: 100px;
+    padding-top: 50px;
     text-transform: uppercase;
 }
 
@@ -169,7 +167,7 @@ h2 {
 }
 
 .event-section-cont {
-    padding: 50px 0px 0px 0px;
+    padding: 50px 0px 50px 0px;
     width: 70%;
     margin: auto;
 

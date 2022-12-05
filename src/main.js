@@ -32,6 +32,14 @@ import {
   faUser,
 } from "@fortawesome/free-regular-svg-icons";
 
+// Import icone brands /
+import {
+  faSquareFacebook,
+  faSquareTwitter,
+  faInstagram,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
+
 // add icons to the library /
 library.add(
   faCartShopping,
@@ -48,7 +56,11 @@ library.add(
   faFileLines,
   faCheck,
   faLocationDot,
-  faCircle
+  faCircle,
+  faSquareFacebook,
+  faSquareTwitter,
+  faInstagram,
+  faLinkedin
 );
 
 // add font awesome icon component */

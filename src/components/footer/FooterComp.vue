@@ -1,6 +1,7 @@
 <template>
     <footer>
         <div class="container">
+
             <div class="title">
                 <h3>people are praising maxcoach</h3>
                 <h2>What make they <span>love us?</span></h2>
@@ -23,11 +24,14 @@
                     <h2>You can be your own guiding star with our help!</h2>
                     <button>Get started now</button>
                 </div>
+
                 <div class="circle-sh">
                     <img src="../../assets/images/maxcoach-shape-02.png" alt="">
                 </div>
             </div>
-
+            <div class="cont-footer">
+                <LinksSectionFooter />
+            </div>
         </div>
     </footer>
 
@@ -35,10 +39,12 @@
 
 <script>
 import PraisingSectionComp from '../footer/PraisingSectionComp.vue';
+import LinksSectionFooter from '../footer/LinksSectionFooter.vue';
 export default {
     name: 'FooterComp',
     components: {
         PraisingSectionComp,
+        LinksSectionFooter
     },
     props: {
         reviewsData: Array,
@@ -48,18 +54,15 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-footer {
-    width: 100%;
-    background-color: #FAF8F6;
-}
-
 .container {
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
 
     .title {
         text-align: center;
         padding-top: 100px;
+        width: 70%;
+        margin: 0 auto;
 
         h3 {
             text-transform: uppercase;
@@ -85,13 +88,16 @@ footer {
         gap: 25px;
         margin-top: 150px;
         margin-bottom: 50px;
+        width: 70%;
+        margin: 0 auto;
+        padding-bottom: 80px;
     }
 
     .icn {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 80px;
+        padding-bottom: 80px;
 
     }
 
@@ -111,8 +117,9 @@ footer {
         justify-content: space-between;
         text-align: center;
         align-items: center;
-
-
+        width: 70%;
+        margin: 0 auto;
+        padding-bottom: 80px;
 
 
         .lines-sh {
@@ -152,6 +159,11 @@ footer {
                 margin-top: 30px;
             }
         }
+    }
+
+    .cont-footer {
+        width: 100%;
+        background-color: #f8f1eb;
     }
 }
 </style>
