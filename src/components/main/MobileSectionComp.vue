@@ -128,5 +128,11 @@ export default {
         border: 0;
         border-radius: 5px;
     }
+
+    .btn:hover {
+        background-color: rgb(237, 237, 237);
+        color: #1FAD96;
+        transition-duration: 0.5s;
+    }
 }
 </style>

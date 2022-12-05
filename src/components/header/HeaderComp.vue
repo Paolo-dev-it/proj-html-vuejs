@@ -208,6 +208,7 @@ header {
   .jumbo-btn-icn:hover button {
     background-color: #403A64;
     color: white;
+    transition-duration: 0.5s;
   }
 
 

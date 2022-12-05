@@ -158,6 +158,12 @@ export default {
                 font-weight: 900;
                 margin-top: 30px;
             }
+
+            button:hover {
+                background-color: rgb(237, 237, 237);
+                color: #1FAD96;
+                transition-duration: 0.5s;
+            }
         }
     }
 

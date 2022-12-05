@@ -13,8 +13,6 @@
                     <button>Get ticket </button>
                 </div>
             </div>
-
-
         </div>
     </div>
 </template>
@@ -33,7 +31,6 @@ export default {
     width: 480px;
     display: flex;
     justify-content: space-between;
-
 }
 
 .single-card {
@@ -45,6 +42,13 @@ export default {
     border-radius: 10px;
     padding-top: 30px;
 }
+
+.single-card:hover {
+    border-left: 4px solid #1FAD96;
+    background-color: white;
+    transition-duration: 0.5s;
+}
+
 
 .left-part {
     .icn {
@@ -87,6 +91,12 @@ export default {
         background-color: #1FAD96;
         color: white;
         margin-top: 10px;
+    }
+
+    button:hover {
+        background-color: rgb(237, 237, 237);
+        color: #1FAD96;
+        transition-duration: 0.5s;
     }
 }
 </style>

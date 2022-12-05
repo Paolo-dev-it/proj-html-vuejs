@@ -18,7 +18,7 @@
                 <CoursesSectionComp v-for="(element, index) in coursesData" :key='index'
                     :singleLessonCardData="element" />
             </div>
-            <div class="cont-card-courses">
+            <div class="cont-card-courses-btn">
                 <button class="btn">View all courses <font-awesome-icon class="ic-arr" icon="fa-arrow-right" /></button>
             </div>
         </div>
@@ -76,6 +76,7 @@ export default {
 main {
     background-color: #FAF8F6;
     width: 100%;
+
 }
 
 .style-sub {
@@ -89,7 +90,7 @@ main {
     line-height: 3rem;
 
     h4 {
-        padding: 0px;
+        padding-top: 40px;
     }
 
     .build-drm {
@@ -128,6 +129,58 @@ main {
     margin-top: 40px;
 }
 
+.cont-card-courses-btn {
+    display: flex;
+    width: 200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+
+
+.cont-card-courses-btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.cont-card-courses-btn:hover .btn {
+    background-color: white;
+    color: #1FAD96;
+    transition-duration: 0.5s;
+}
+
+.cont-card-courses-btn:hover .ic-arr {
+    color: #1FAD96;
+    background-color: white;
+    transition-duration: 0.5s;
+}
+
+.cont-card-courses-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #1FAD96;
+    color: white;
+    border-radius: 10px;
+    width: 250px;
+    border: 0;
+
+    .btn {
+        border: 0;
+        background-color: #1FAD96;
+        color: white;
+    }
+
+    .ic-arr {
+        margin-left: 10px;
+    }
+}
+
 h4 {
     display: flex;
     justify-content: center;
@@ -150,21 +203,7 @@ h2 {
     }
 }
 
-.btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    background-color: #1FAD96;
-    color: white;
-    border-radius: 10px;
-    width: 250px;
-    border: 0;
 
-    .ic-arr {
-        margin-left: 10px;
-    }
-}
 
 .event-section-cont {
     padding: 50px 0px 50px 0px;
@@ -185,7 +224,6 @@ h2 {
 
 
     .single-event-section {
-
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;

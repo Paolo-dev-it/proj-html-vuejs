@@ -88,6 +88,12 @@ export default {
             background-color: #1FAD96;
             color: white;
         }
+
+        button:hover {
+            background-color: rgb(237, 237, 237);
+            color: #1FAD96;
+            transition-duration: 0.5s;
+        }
     }
 
     .image-list-section {
