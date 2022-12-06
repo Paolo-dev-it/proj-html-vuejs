@@ -55,7 +55,6 @@ export default {
     transition-duration: 0.5s;
 }
 
-
 .left-part {
     .icn {
         margin: 0;

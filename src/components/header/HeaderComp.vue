@@ -9,14 +9,12 @@
           <span>0</span>
         </div>
       </div>
-
       <font-awesome-icon icon="fa-regular fa-circle-user" />
       <div class="right-nav">
         <input class="input-cust" type="text" placeholder="Search...">
         <font-awesome-icon class="magn-gl" icon=" fa-magnifying-glass" />
       </div>
     </div>
-
     <div class="container-jumbo">
       <div class="desc-cont">
         <h1>Complete your Dreams in JavaS Programming </h1>
@@ -34,14 +32,11 @@
           <font-awesome-icon class="sin-icn" icon=" fa-book" />
           <font-awesome-icon class="sin-icn" icon=" fa-cart-shopping" />
         </div>
-
       </div>
       <div class="img-jumbo">
         <img src="../../assets/images/home-5-hero-image.png" alt="">
-
       </div>
     </div>
-
   </header>
 </template>
 
@@ -64,7 +59,8 @@ export default {
 <style scoped lang="scss">
 header {
   background-color: #E9E6E3;
-  background-image: url('../../assets/images/jumbo-overlay.svg');
+  background-image: url('../../assets/images/UntitledReadyToUse-1.svg');
+  background-size: cover;
   padding-top: 30px;
   position: relative;
 }
@@ -83,8 +79,6 @@ header {
   display: flex;
   align-items: center;
 
-
-
   .input-cust {
     height: 45px;
     padding: 20px;
@@ -98,8 +92,6 @@ header {
     padding: 20px;
     color: #1FAD96;
   }
-
-
 }
 
 .cart-cont {
@@ -124,8 +116,6 @@ header {
   }
 }
 
-
-
 .container-jumbo {
   display: flex;
 
@@ -147,7 +137,6 @@ header {
     background-color: white;
     border-radius: 5px 0px 0px 5px;
     padding: 10px;
-
 
     .sin-icn {
       margin-bottom: 15px;
@@ -176,7 +165,6 @@ header {
     width: 200px;
     position: relative;
     display: flex;
-
 
     .jumbo-btn-icn:hover {
       margin-top: 30px;
@@ -210,7 +198,6 @@ header {
     color: white;
     transition-duration: 0.5s;
   }
-
 
   .img-jumbo {
     width: 50%;

@@ -34,5 +34,11 @@ li {
         margin-left: 5px;
         color: gray;
     }
+
+    a:hover {
+        text-decoration: none;
+        color: #1FAD96;
+    }
+
 }
 </style>

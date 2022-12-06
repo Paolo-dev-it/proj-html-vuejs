@@ -22,10 +22,7 @@
                 <button class="btn">View all courses <font-awesome-icon class="ic-arr" icon="fa-arrow-right" /></button>
             </div>
         </div>
-
         <RegisterSectionComp />
-
-
         <MobileSectionComp />
         <div class="event-section-cont">
             <h3>get in contact now</h3>
@@ -38,7 +35,6 @@
                 </span>
             </span>
         </div>
-
     </main>
 </template>
 
@@ -52,7 +48,6 @@ import MobileSectionComp from '../main/MobileSectionComp.vue';
 import EventsSectionComp from '../main/EventsSectionComp.vue';
 
 export default {
-
     name: 'MainComp',
     props: {
         lessonsData: Array,
@@ -76,13 +71,11 @@ export default {
 main {
     background-color: #FAF8F6;
     width: 100%;
-
 }
 
 .style-sub {
     width: 70%;
     margin: 0 auto;
-
     margin-bottom: 70px;
     text-align: center;
     text-transform: uppercase;
@@ -110,12 +103,10 @@ main {
     width: 70%;
     margin: auto;
     gap: 30px;
-
 }
 
 .courses-section-cont {
     width: 100%;
-
 }
 
 .cont-card-courses {
@@ -138,8 +129,6 @@ main {
     gap: 20px;
     margin-top: 40px;
 }
-
-
 
 .cont-card-courses-btn:hover {
     background-color: rgb(255, 255, 255);
@@ -203,8 +192,6 @@ h2 {
     }
 }
 
-
-
 .event-section-cont {
     padding: 50px 0px 50px 0px;
     width: 70%;
@@ -220,8 +207,6 @@ h2 {
         margin-top: 10px;
         margin-bottom: 50px;
     }
-
-
 
     .single-event-section {
         display: flex;
@@ -245,7 +230,14 @@ h2 {
             text-decoration-color: gray;
             text-decoration-thickness: 1px;
         }
-    }
 
+        .all-events:hover {
+            color: #403A64;
+            cursor: pointer;
+            text-decoration: underline;
+            text-decoration-color: #1FAD96;
+            text-decoration-thickness: 1px;
+        }
+    }
 }
 </style>

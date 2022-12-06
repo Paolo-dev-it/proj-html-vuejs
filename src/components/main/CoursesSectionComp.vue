@@ -48,8 +48,6 @@ export default {
     width: 300px;
     padding: 20px;
 
-
-
     .single-card-cont {
         position: relative;
         width: calc(100%/3);
@@ -88,11 +86,7 @@ export default {
             width: 40px;
             height: 40px;
             border-radius: 50%;
-
         }
-
-
-
 
     }
 
@@ -107,8 +101,6 @@ export default {
             font-weight: 200;
             color: gray;
         }
-
-
 
         .descr-icn-img {
             margin-left: 5px;
@@ -127,7 +119,7 @@ export default {
         }
 
         p {
-            font-size: 1.7rem;
+            font-size: 1.4rem;
             font-weight: bold;
             line-height: 2.5rem;
         }

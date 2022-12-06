@@ -57,22 +57,22 @@ export default {
         {
           type: 'Idea Discussion',
           url: 'home-5-image-box-01.png',
-          description: 'Get teamed up with the specialists who work and teach coding for years at famous universities'
+          description: 'Get teamed up with the specialists who work and teach coding for years at famous universities.'
         },
         {
           type: 'Web Development',
           url: 'home-5-image-box-02.png',
-          description: 'Get teamed up with the specialists who work and teach coding for years at famous universities'
+          description: 'Learn to start building a webpage from scratch. You decide your own pace, course and speed.'
         },
         {
           type: 'System Administration',
           url: 'home-5-image-box-03.png',
-          description: 'Get teamed up with the specialists who work and teach coding for years at famous universities'
+          description: 'Learners are encouraged to study the mechanism and structure of system administration.'
         },
         {
           type: 'Graphic Design',
           url: 'home-5-image-box-04.png',
-          description: 'Get teamed up with the specialists who work and teach coding for years at famous universities'
+          description: 'Have a passion for graphic and arts? Show your talents with confidence and self-assertiveness.'
         },
 
       ],
@@ -96,7 +96,7 @@ export default {
           students: 50,
         },
         {
-          name: 'Customer-centric info-Tech strategies',
+          name: 'Open Programming Courses for Everyone: Python',
           path: 'stock-full-hd-04-480x298.jpg',
           pathTeacher: 'd0d504142acfde820eef2f11feea6253.jpeg',
           teacherName: 'Maggie Strickland',
@@ -105,7 +105,7 @@ export default {
           students: 769,
         },
         {
-          name: 'Customer-centric info-Tech strategies',
+          name: 'Academic Listening and Note-taking',
           path: 'stock-full-hd-06-480x298.jpg',
           pathTeacher: '73ee246daf47502812ccefc84bf02898.jpeg',
           teacherName: 'Blanche Fields',
@@ -114,7 +114,7 @@ export default {
           students: 67,
         },
         {
-          name: 'Customer-centric info-Tech strategies',
+          name: 'Master JQuery in a Short Period of Time',
           path: 'course-featured-image-01-480x298.jpg',
           pathTeacher: '73ee246daf47502812ccefc84bf02898.jpeg',
           teacherName: 'Blanche Fields',
@@ -123,7 +123,7 @@ export default {
           students: 51,
         },
         {
-          name: 'Customer-centric info-Tech strategies',
+          name: 'Introduction to Javascript for Beginners',
           path: 'stock-full-hd-05-480x298.jpg',
           pathTeacher: '73ee246daf47502812ccefc84bf02898.jpeg',
           teacherName: 'Blanche Fields',
@@ -203,7 +203,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto+Condensed&display=swap');
 
 * {
   margin: 0;
@@ -212,7 +212,7 @@ export default {
 }
 
 #app {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-family: 'Roboto Condensed', sans-serif;
 }
 </style>

@@ -10,7 +10,7 @@
                 <div>
                     <div class="title-card-top">
                         <div>
-                            <h3>Multiple platforms supporting for teaching and studying</h3>
+                            <h3>Multiple platforms supporting for teaching & studying</h3>
                         </div>
                         <div class="minus-sty">
                             <font-awesome-icon class="icn-min-sty" icon="fa-minus" />
@@ -30,7 +30,7 @@
                 </div>
                 <div class="card-top-2">
                     <div>
-                        <h3>Multiple platforms supporting for teaching and studying</h3>
+                        <h3>Multiple Course Participations at the Same Time</h3>
                     </div>
                     <div class="plus-cont">
                         <img src="../../assets/images/add.svg" alt="">
@@ -38,7 +38,7 @@
                 </div>
                 <div class="card-top-3">
                     <div>
-                        <h3>Multiple platforms supporting for teaching and studying</h3>
+                        <h3>Track Study Progress & Deliver Prompt Feedback</h3>
                     </div>
                     <div class="plus-cont">
                         <img src="../../assets/images/add.svg" alt="">
@@ -193,6 +193,7 @@ export default {
             border-radius: 5px 5px 0px 0px;
             display: flex;
             align-items: center;
+            justify-content: space-between;
 
 
             .minus-sty {

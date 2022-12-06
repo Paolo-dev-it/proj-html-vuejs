@@ -45,6 +45,12 @@ export default {
                 margin-left: 10px;
                 margin-top: 20px;
             }
+
+        }
+
+        div:hover {
+            color: #1FAD96;
+            cursor: pointer;
         }
 
 

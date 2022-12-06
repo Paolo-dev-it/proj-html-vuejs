@@ -21,7 +21,6 @@
             <div class="right-section">
 
                 <div class="ul-cont">
-
                     <ul>
                         <li>
                             <h3>Explore</h3>
@@ -36,8 +35,6 @@
                         <li>Contact us</li>
                     </ul>
                 </div>
-
-
 
                 <div class="inf-con">
                     <ul>
@@ -76,8 +73,6 @@ export default {
             }
             )
         }
-
-
     }
 }
 </script>
@@ -111,6 +106,13 @@ export default {
                 font-size: 1.4rem;
 
             }
+
+            li:hover {
+
+                color: #1FAD96;
+                cursor: pointer;
+
+            }
         }
 
         li {
@@ -118,8 +120,6 @@ export default {
             color: gray;
         }
     }
-
-
 
     .right-section {
         display: flex;
@@ -142,12 +142,16 @@ export default {
             }
         }
 
+        li:hover {
+            color: #1FAD96;
+            cursor: pointer;
+        }
+
         .inf-con {
             h3 {
                 color: black;
 
             }
-
 
             padding-top: 37px;
             margin-left: 70px;
@@ -175,8 +179,6 @@ export default {
                 transition-duration: 0.5s;
             }
         }
-
-
     }
 
     .copyright {
