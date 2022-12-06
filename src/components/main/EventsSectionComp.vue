@@ -1,12 +1,18 @@
+<!-- Componente importato su MainComp -->
+
 <template>
     <div class="container">
+        <!-- Contenitore carte -->
         <div class="card-cont">
+            <!-- Contenitore carta singola -->
             <div class="single-card">
+                <!-- Sezione sinistra della carta -->
                 <div class="left-part">
                     <span class="icn"><font-awesome-icon icon="fa-solid fa-location-dot" /></span>
                     <span>{{ singleEventCardData.place }}</span>
                     <h3>{{ singleEventCardData.event }}</h3>
                 </div>
+                <!-- Sezione destra della carta -->
                 <div class="right-part">
                     <div class="nmb">{{ singleEventCardData.number }}</div>
                     <div class="mnt">{{ singleEventCardData.month }}</div>
@@ -27,12 +33,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+// Contenitore carta singola
 .card-cont {
     width: 480px;
-    display: flex;
-    justify-content: space-between;
 }
 
+// Contenitore contenuto carta 
 .single-card {
     width: 100%;
     display: flex;
@@ -55,6 +61,7 @@ export default {
     transition-duration: 0.5s;
 }
 
+// Parte sinistra carta
 .left-part {
     .icn {
         margin: 0;
@@ -73,6 +80,7 @@ export default {
     }
 }
 
+// Parte destra carta
 .right-part {
     display: flex;
     flex-direction: column;

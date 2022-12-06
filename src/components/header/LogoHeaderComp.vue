@@ -1,3 +1,5 @@
+<!-- Componente importato su HeaderComp -->
+
 <template>
     <div>
         <img src="../../assets/images/dark-logo.png" alt="">

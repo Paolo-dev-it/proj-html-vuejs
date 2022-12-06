@@ -1,5 +1,9 @@
+<!-- Componente importato su MainComp -->
+
+
 <template>
     <div class="container-big">
+        <!-- Contenitore al 70% -->
         <div class="container">
             <span>
                 <div class="nmb">1.926</div>
@@ -42,6 +46,7 @@ export default {
 
     }
 
+    // Numeri
     .nmb {
         font-size: 3rem;
         font-weight: 900;
@@ -49,6 +54,7 @@ export default {
         text-align: center;
     }
 
+    // Descrizione
     .desc {
         text-transform: uppercase;
         margin-top: 20px;

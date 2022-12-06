@@ -1,8 +1,11 @@
 <template>
   <header>
     <div class="container-nav">
+      <!-- Componente Logo -->
       <LogoHeaderComp />
+      <!-- Componente che gestisce il props derivante da App.vue all'interno del suo contenitore -->
       <NavbarHeaderComp v-for="(elem, index) in navbarData" :key='index' :singleData="elem" />
+      <!-- Icone -->
       <div class="cart-cont">
         <font-awesome-icon icon=" fa-cart-shopping" />
         <div class="cart-nmb">
@@ -10,11 +13,13 @@
         </div>
       </div>
       <font-awesome-icon icon="fa-regular fa-circle-user" />
+      <!-- Input -->
       <div class="right-nav">
         <input class="input-cust" type="text" placeholder="Search...">
         <font-awesome-icon class="magn-gl" icon=" fa-magnifying-glass" />
       </div>
     </div>
+    <!-- Jumbotron -->
     <div class="container-jumbo">
       <div class="desc-cont">
         <h1>Complete your Dreams in JavaS Programming </h1>
@@ -26,6 +31,7 @@
           <span><font-awesome-icon class="dwl-icn" icon="fa-download" /></span>
           <button>Download free E-book</button>
         </div>
+        <!-- Icone gestite con position per spostarle al lato destro del jumbotron -->
         <div class="full-right-jumbo">
           <font-awesome-icon class="sin-icn" icon="fa-ruler-combined" />
           <font-awesome-icon class="sin-icn" icon="fa-regular fa-futbol" />
@@ -33,6 +39,7 @@
           <font-awesome-icon class="sin-icn" icon=" fa-cart-shopping" />
         </div>
       </div>
+      <!-- Immagine Jumbo -->
       <div class="img-jumbo">
         <img src="../../assets/images/home-5-hero-image.png" alt="">
       </div>
@@ -94,10 +101,12 @@ header {
   }
 }
 
+// Carrello
 .cart-cont {
   position: relative;
 }
 
+// Numerino carrello
 .cart-nmb {
   width: 16px;
   height: 16px;
@@ -116,14 +125,15 @@ header {
   }
 }
 
+// Container jumbo
 .container-jumbo {
   display: flex;
-
   justify-content: space-between;
   align-items: center;
   width: 70%;
   margin: 0 auto;
 
+  // Icone tutte a destra
   .full-right-jumbo {
     position: absolute;
     right: 0;
@@ -141,9 +151,9 @@ header {
     .sin-icn {
       margin-bottom: 15px;
     }
-
   }
 
+  // Container descrizione
   .desc-cont {
     width: 50%;
 
@@ -160,6 +170,7 @@ header {
     }
   }
 
+  // Bottone jumbo
   .jumbo-btn-icn {
     margin-top: 30px;
     width: 200px;
@@ -181,6 +192,7 @@ header {
       border: 0;
     }
 
+    // Icona download
     .dwl-icn {
       position: absolute;
       top: 15px;

@@ -1,16 +1,19 @@
 <template>
     <main>
+        <!-- Primo titoletto main -->
         <div class="style-sub">
             <h4>start learning coding languages</h4>
             <h2 class="build-drm">Build your dream <span class="today-sty">today</span> </h2>
         </div>
-
+        <!-- Componente che gestisce il props derivante da App.vue all'interno del suo contenitore -->
         <div class="cont-card">
             <CardComp v-for="(elem, index) in lessonsData" :key='index' :singleCardData="elem" />
         </div>
-
+        <!-- Componente perspective -->
         <PerspectiveSectionCompVue />
+        <!-- Componente Numbers -->
         <NumbersSectionComp />
+        <!-- Sezione courses che gestisce il props derivante da App.vue all'interno del suo contenitore -->
         <div class="courses-section-cont">
             <h4>choose where you'd like to begin</h4>
             <h2>Latest featured <span> courses</span></h2>
@@ -22,11 +25,14 @@
                 <button class="btn">View all courses <font-awesome-icon class="ic-arr" icon="fa-arrow-right" /></button>
             </div>
         </div>
+        <!-- Componente Register -->
         <RegisterSectionComp />
+        <!-- Componente Mobile -->
         <MobileSectionComp />
         <div class="event-section-cont">
             <h3>get in contact now</h3>
             <h2>upcoming <span>events</span></h2>
+            <!-- Sezione events che gestisce il props derivante da App.vue all'interno del suo contenitore -->
             <div class="single-event-section">
                 <EventsSectionComp v-for="(element, index) in eventsData" :key='index' :singleEventCardData="element" />
             </div>
@@ -73,6 +79,7 @@ main {
     width: 100%;
 }
 
+// Stile primo sottotitolo
 .style-sub {
     width: 70%;
     margin: 0 auto;
@@ -86,6 +93,7 @@ main {
         padding-top: 40px;
     }
 
+    // Stile build your dream
     .build-drm {
         text-transform: capitalize;
         font-size: 2.5rem;
@@ -98,6 +106,7 @@ main {
     }
 }
 
+// Stile sezione lezioni
 .cont-card {
     display: flex;
     width: 70%;
@@ -105,6 +114,7 @@ main {
     gap: 30px;
 }
 
+// Stile sezione corsi
 .courses-section-cont {
     width: 100%;
 }
@@ -192,6 +202,7 @@ h2 {
     }
 }
 
+// Stile sezione eventi
 .event-section-cont {
     padding: 50px 0px 50px 0px;
     width: 70%;

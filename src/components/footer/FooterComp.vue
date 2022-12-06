@@ -1,20 +1,22 @@
 <template>
     <footer>
         <div class="container">
-
             <div class="title">
                 <h3>people are praising maxcoach</h3>
                 <h2>What make they <span>love us?</span></h2>
             </div>
+            <!-- Componente che gestisce il props derivante da App.vue all'interno del suo contenitore -->
             <div class="container-cards">
                 <PraisingSectionComp v-for="(elem, index) in reviewsData" :key='index' :singleReviewCardData="elem" />
             </div>
+            <!-- Icone pallini sotto le carte -->
             <div class="icn">
                 <font-awesome-icon class="black" icon="fa-solid fa-circle" />
                 <font-awesome-icon class="gray" icon="fa-solid fa-circle" />
                 <font-awesome-icon class="gray" icon="fa-solid fa-circle" />
                 <font-awesome-icon class="gray" icon="fa-solid fa-circle" />
             </div>
+            <!-- Call to action -->
             <div class="cta">
                 <div class="lines-sh">
                     <img src="../../assets/images/maxcoach-shape-01.png" alt="">
@@ -29,6 +31,7 @@
                     <img src="../../assets/images/maxcoach-shape-02.png" alt="">
                 </div>
             </div>
+            <!-- Componente che gestisce il props derivante da App.vue all'interno del suo contenitore -->
             <div class="cont-footer">
                 <LinksSectionFooter />
             </div>
@@ -58,6 +61,7 @@ export default {
     width: 100%;
     margin: 0 auto;
 
+    // Stile primi titoli footer
     .title {
         text-align: center;
         padding-top: 100px;
@@ -83,6 +87,7 @@ export default {
         }
     }
 
+    // Stile recensioni ragazzi
     .container-cards {
         display: flex;
         gap: 25px;
@@ -93,17 +98,16 @@ export default {
         padding-bottom: 80px;
     }
 
+    // Stile pallini
     .icn {
         display: flex;
         justify-content: center;
         align-items: center;
         padding-bottom: 80px;
-
     }
 
     .black {
         font-size: 0.7rem;
-
     }
 
     .gray {
@@ -112,6 +116,7 @@ export default {
         margin-left: 20px;
     }
 
+    // Stile call to action
     .cta {
         display: flex;
         justify-content: space-between;
@@ -120,7 +125,6 @@ export default {
         width: 70%;
         margin: 0 auto;
         padding-bottom: 80px;
-
 
         .lines-sh {
             margin-top: 40px;

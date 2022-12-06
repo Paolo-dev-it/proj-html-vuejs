@@ -1,18 +1,20 @@
+<!-- Componente importato su MainComp -->
+
 <template>
     <div class="container">
-
+        <!-- Contenitore carte con i corsi. Tutti i dati sono gestiti tramite props -->
         <div class="card-cont">
-
+            <!-- PArte superiore carta con immagine e prezzo -->
             <div class="single-card-cont">
                 <img :src="`/img/${singleLessonCardData.path}`" alt="">
                 <div class="price">{{ singleLessonCardData.price }}</div>
             </div>
-
+            <!-- Contenitore insegnante -->
             <div class="cont-small-teacher-img">
                 <img class="small-teacher-img" :src="`/img/${singleLessonCardData.pathTeacher}`" alt="">
                 <span>{{ singleLessonCardData.teacherName }}</span>
-
             </div>
+            <!-- Descrizione corsi -->
             <div class="body-cont">
                 <div class="name-sty">
                     <p>{{ singleLessonCardData.name }}</p>
@@ -27,9 +29,6 @@
                     }} Students</span>
                 </div>
             </div>
-
-
-
         </div>
     </div>
 </template>
@@ -48,6 +47,7 @@ export default {
     width: 300px;
     padding: 20px;
 
+    // Contenitore carte
     .single-card-cont {
         position: relative;
         width: calc(100%/3);
@@ -69,6 +69,7 @@ export default {
         width: 300px;
     }
 
+    // Contenitore teachers
     .cont-small-teacher-img {
         padding: 10px;
         display: flex;
@@ -80,21 +81,18 @@ export default {
             color: gray;
         }
 
-
-
         .small-teacher-img {
             width: 40px;
             height: 40px;
             border-radius: 50%;
         }
-
     }
 
+    // Contenitore descrizione
     .cont-desc {
         padding: 0;
         font-weight: 200;
         color: gray;
-
 
         span {
 
@@ -109,6 +107,7 @@ export default {
         }
     }
 
+    // Contenitore body carta
     .body-cont {
         text-align: left;
         width: 100%;
@@ -123,9 +122,6 @@ export default {
             font-weight: bold;
             line-height: 2.5rem;
         }
-
     }
-
-
 }
 </style>

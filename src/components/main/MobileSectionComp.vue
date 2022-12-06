@@ -1,6 +1,9 @@
+<!-- Componente importato su MainComp -->
+
 <template>
     <div class="container-big">
         <div class="container">
+            <!-- Contenitore a sinistra al 50% -->
             <div class="cont-left">
                 <img class="img" src="../../assets/images/home-5-image-02.png" alt="">
                 <div class="gray-shape"></div>
@@ -8,6 +11,7 @@
                 <div class="shape-circle"></div>
                 <div class="lines-shape"></div>
             </div>
+            <!-- Contenitore a destra al 50% -->
             <div class="mobile-desc-cont">
                 <h3>what are you looking for?</h3>
                 <h2>Learn on your <span>mobile</span> anytime!</h2>
@@ -34,6 +38,7 @@ export default {
     padding-top: 70px;
 }
 
+// Contenitore al 70%
 .container {
     width: 70%;
     margin: auto;
@@ -42,9 +47,9 @@ export default {
     align-items: center;
     padding-bottom: 130px;
     position: relative;
-
 }
 
+// Contenitore sx al 50% del 70%
 .cont-left {
     width: 50%;
 }
@@ -55,6 +60,7 @@ export default {
     z-index: 1;
 }
 
+// Shape grigia 
 .gray-shape {
     background-image: url('../../assets/images/underlay-shape-grey.svg');
     background-size: cover;
@@ -67,6 +73,7 @@ export default {
 
 }
 
+// Shape cerchio
 .shape-circle {
     background-image: url('../../assets/images/maxcoach-shape-02.png');
     background-size: cover;
@@ -77,6 +84,7 @@ export default {
     height: 70px;
 }
 
+// Shape rettangolare
 .shape {
     background-image: url('../../assets/images/maxcoach-shape-07.png');
     background-size: cover;
@@ -87,6 +95,7 @@ export default {
     height: 200px;
 }
 
+// Shape linee
 .lines-shape {
     background-image: url('../../assets/images/maxcoach-shape-01.png');
     background-size: cover;
@@ -97,6 +106,7 @@ export default {
     height: 55px;
 }
 
+// Sezione a destra al 50% del 70%
 .mobile-desc-cont {
     width: 50%;
     margin-top: 100px;

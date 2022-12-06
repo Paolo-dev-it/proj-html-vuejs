@@ -1,11 +1,13 @@
+<!-- Componente importato su HeaderComp -->
+
 <template>
     <div>
+        <!-- Lista navbar. Dati gestiti con un props. -->
         <ul>
             <li>
                 <a href="">{{ singleData.name }}</a>
                 <font-awesome-icon class="arr-dwn-icn" icon="fa-chevron-down" />
             </li>
-
         </ul>
     </div>
 </template>
@@ -23,7 +25,6 @@ export default {
 li {
     list-style-type: none;
 
-
     a {
         text-decoration: none;
         color: gray;
@@ -39,6 +40,5 @@ li {
         text-decoration: none;
         color: #1FAD96;
     }
-
 }
 </style>

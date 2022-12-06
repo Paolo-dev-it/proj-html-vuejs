@@ -1,13 +1,19 @@
+<!-- Componente importato su MainComp -->
+
 <template>
     <div class="container-big">
         <div class="perspective-cont">
+            <!-- Contenitore sezione sinistra -->
             <div class="img-happy">
                 <img src="../../assets/images/about-us-03-image-01.png" alt="">
             </div>
+            <!-- Contenitore sezione destra  -->
             <div class="perspect-desc-cont">
+                <!-- Titoli -->
                 <h5>dream with <span>maxcoach</span></h5>
                 <h2>Construct a <span>stunning</span> career perspective</h2>
                 <div>
+                    <!-- Contenuto aperto  -->
                     <div class="title-card-top">
                         <div>
                             <h3>Multiple platforms supporting for teaching & studying</h3>
@@ -28,6 +34,7 @@
                     </div>
 
                 </div>
+                <!-- 2 Sezioni non aperte statiche -->
                 <div class="card-top-2">
                     <div>
                         <h3>Multiple Course Participations at the Same Time</h3>
@@ -63,13 +70,14 @@ export default {
     background-color: #FAF8F6;
 }
 
+// Contenitore al 70% 
 .perspective-cont {
     width: 70%;
     margin: auto;
     display: flex;
     justify-content: space-between;
 
-
+    // Sezione immagine
     .img-happy {
         margin-top: 100px;
         width: 50%;
@@ -82,6 +90,7 @@ export default {
         }
     }
 
+    // Descrizione contenuto
     .perspect-desc-cont {
         margin-top: 100px;
         padding: 180px 25px 30px 50px;
@@ -111,6 +120,7 @@ export default {
             }
         }
 
+        // Ombre contenitori
         .card-top-1 {
             -webkit-box-shadow: 0px 0px 65px 39px #E7E7E7;
             -moz-box-shadow: 0px 0px 65px 39px #E7E7E7;
@@ -135,7 +145,6 @@ export default {
             -moz-box-shadow: 0px 0px 65px 39px #E7E7E7;
             -o-box-shadow: 0px 0px 65px 39px #E7E7E7;
             box-shadow: 0px 0px 10px 0px #E7E7E7;
-
 
             .plus-cont {
                 height: 20px;
@@ -195,7 +204,6 @@ export default {
             align-items: center;
             justify-content: space-between;
 
-
             .minus-sty {
 
                 height: 20px;
@@ -210,7 +218,6 @@ export default {
 
                 .icn-min-sty {
                     color: #1FAD96;
-
                 }
             }
         }

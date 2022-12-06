@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-
     <HeaderComp :navbarData="navbar" />
     <MainComp :lessonsData="lessons" :coursesData="courses" :eventsData="events" />
     <FooterComp :reviewsData="reviews" />
@@ -12,11 +11,6 @@ import HeaderComp from './components/header/HeaderComp.vue'
 import MainComp from './components/main/MainComp.vue'
 import FooterComp from './components/footer/FooterComp.vue'
 
-
-
-
-
-
 export default {
   name: 'App',
   components: {
@@ -26,6 +20,7 @@ export default {
   },
   data() {
     return {
+      // Array di oggetti Navbar
       navbar: [
         {
           name: 'Home',
@@ -51,8 +46,8 @@ export default {
           name: 'Shop',
           url: 'https://www.google.it'
         },
-
       ],
+      // Array di oggetti Lezioni
       lessons: [
         {
           type: 'Idea Discussion',
@@ -76,7 +71,7 @@ export default {
         },
 
       ],
-
+      // Array di oggetti Corsi
       courses: [
         {
           name: 'Learning to write as a professional author',
@@ -133,7 +128,7 @@ export default {
         },
 
       ],
-
+      // Array di oggetti Eventi
       events: [
         {
           place: 'Texas, US',
@@ -173,7 +168,7 @@ export default {
           month: 'aug',
         },
       ],
-
+      // Array di oggetti Recensioni
       reviews: [
         {
           path: 'testimonial-avata-02.jpg',
@@ -193,12 +188,9 @@ export default {
           name: 'luvic dubble',
           job: '/ Private Tutor',
         },
-
-
       ],
     }
   }
-
 }
 </script>
 

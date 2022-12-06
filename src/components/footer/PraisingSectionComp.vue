@@ -1,6 +1,10 @@
+<!-- Componente importato su FooterComp -->
+
 <template>
     <div class="container">
+        <!-- Contenitore carta singola -->
         <div class="single-card">
+            <!-- Carta con all'interno immagine in position, corpo della carta con descrizione nome e lavoro -->
             <div class="card">
                 <img :src="`/img/${singleReviewCardData.path}`" alt="">
                 <div class="card-body">
@@ -29,9 +33,8 @@ export default {
     width: 70%;
     margin: 0 auto;
 
-
+    // Stile carta singola
     .single-card {
-
         border-radius: 10px;
         width: 100%;
         height: 300px;

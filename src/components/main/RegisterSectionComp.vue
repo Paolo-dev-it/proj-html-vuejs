@@ -1,9 +1,14 @@
+<!-- Componente importato su MainComp -->
+
 <template>
     <div class="big-container">
+        <!-- Contenitore sezione -->
         <div class="container">
+            <!-- Contenitore lista -->
             <div class="list-section">
                 <h4>why esitate to register?</h4>
                 <h2>learn at your own <span>pace</span> </h2>
+                <!-- Ogni lista ha un'icona  -->
                 <ul>
                     <li><font-awesome-icon class="check" icon="fa-solid fa-check" />Select & customize courses to your
                         preferences</li>
@@ -18,6 +23,7 @@
                 </ul>
                 <button>Get started for free</button>
             </div>
+            <!-- Sezione destra con immagine e div che comprende la shape -->
             <div class="image-list-section">
                 <img src="../../assets/images/home-5-image-01.png" alt="">
                 <div class="shape"></div>
@@ -41,6 +47,7 @@ export default {
     background-color: white;
 }
 
+// Contenitore al 70%
 .container {
     width: 70%;
     margin: auto;
@@ -50,7 +57,7 @@ export default {
     z-index: 3;
     padding: 80px;
 
-
+    // Sezione sinistra al 50%
     .list-section {
         width: 50%;
 

@@ -1,6 +1,9 @@
+<!-- Componente importato su FooterComp -->
+
 <template>
     <div class="big-container">
         <div class="container">
+            <!-- Sezione footer di sinistra con luogo e icone socials -->
             <div class="left-section">
                 <h3>Address</h3>
                 <ul>
@@ -16,10 +19,9 @@
                         <li><font-awesome-icon icon="fa-brands fa-linkedin" /></li>
                     </ul>
                 </div>
-
             </div>
+            <!-- Sezione footer di destra con explore e informations -->
             <div class="right-section">
-
                 <div class="ul-cont">
                     <ul>
                         <li>
@@ -45,6 +47,7 @@
                         <li>Purchase guide</li>
                         <li>Privacy policy</li>
                         <li>Terms of services</li>
+                        <!-- Bottone che ti fa tornare al top del sito -->
                         <div class="cont-btn">
                             <button @click="toTop()"><font-awesome-icon icon="fa-solid fa-arrow-up-long" /></button>
                         </div>
@@ -54,6 +57,7 @@
             </div>
 
         </div>
+        <!-- Copyright -->
         <div class="copyright">
             &#169; 2022 MaxCoach. All Rights Reserved
         </div>
@@ -85,6 +89,7 @@ export default {
     position: relative;
 }
 
+// Contenitore footer al 70%
 .container {
     display: flex;
     justify-content: space-between;
@@ -92,11 +97,11 @@ export default {
     width: 70%;
     margin: 0 auto;
 
-
     ul {
         list-style: none;
     }
 
+    // Stile sezione di sinistra
     .left-section {
         .icons {
             display: flex;
@@ -121,6 +126,7 @@ export default {
         }
     }
 
+    // Stile sezione di destra
     .right-section {
         display: flex;
         align-items: center;
@@ -150,7 +156,6 @@ export default {
         .inf-con {
             h3 {
                 color: black;
-
             }
 
             padding-top: 37px;
