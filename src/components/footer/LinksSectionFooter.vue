@@ -54,8 +54,11 @@
 
                     </ul>
                 </div>
-
             </div>
+
+        </div>
+        <div class="copyright">
+            &#169; 2022 MaxCoach. All Rights Reserved
         </div>
     </div>
 </template>
@@ -172,6 +175,14 @@ export default {
                 transition-duration: 0.5s;
             }
         }
+
+
+    }
+
+    .copyright {
+        display: flex;
+        text-align: center;
+        justify-content: center;
     }
 }
 </style>
